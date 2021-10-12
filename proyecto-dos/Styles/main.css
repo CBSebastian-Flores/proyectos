@@ -1,0 +1,153 @@
+body {
+  background: #ffe7e7;
+}
+img {
+  margin: 0px 22px 0px;
+}
+.contenedor-master {
+  background: #fff;
+  width: 600px;
+  margin: auto;
+  text-align: center;
+}
+h1 {
+  font-family: Arial;
+  font-size: 36px;
+  line-height: 100px;
+  font-weight: bold;
+}
+h2 {
+  width: 260px;
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 27px;
+  line-height: 34px;
+  text-align: left;
+
+  margin: 30px 0px 8px;
+}
+p {
+  width: 225px;
+
+  font-family: Arial;
+  font-size: 19px;
+  line-height: 24px;
+  text-align: left;
+  margin: 8px 0px;
+}
+button {
+  padding: 13px;
+  width: 97px;
+  background: #ffffff;
+  border: 1px solid #000000;
+  border-radius: 4px;
+  margin: 10px 0px 0px -175px;
+}
+/*header*/
+/*primera seccion*/
+.imagen-sin-fondo {
+  background: #ffe7e7;
+  border-radius: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.email-template img {
+  margin: 0px 0px 0px;
+}
+
+.email-template button {
+  padding: 13px;
+  background: #ffffff;
+  border: 1px solid #000000;
+  border-radius: 4px;
+  margin: 20px 250px 76px;
+}
+
+.email-template p {
+  width: 500px;
+  font-family: Arial;
+  font-size: 19px;
+  line-height: 24px;
+  margin: 20px 44px 0px;
+  text-align: center;
+}
+
+/*segunda seccion*/
+.Customize-Email-1 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 72px;
+}
+.Customize-Email-1 div:nth-child(2) {
+  margin-right: 75px;
+}
+/*tercera seccion*/
+.Customize-Email-2 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 72px;
+}
+.Customize-Email-2 div:nth-child(1) {
+  margin-left: 28px;
+}
+/*cuarta seccion*/
+.Customize-Email-3 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 72px;
+}
+.Customize-Email-3 div:nth-child(2) {
+  margin-right: 75px;
+}
+/*clase nota , main*/
+.nota {
+  margin: 0px 0px 40px 25px;
+}
+.nota p {
+  font-weight: 500;
+  width: 545px;
+}
+/*line-separacion*/
+.line-separacion{
+  background: black;
+  margin: 0px 30px 0px 30px;
+  padding: 2px 0px 0px 10px;
+}
+/*footer*/
+footer {
+  width: 560px;
+  height: 255px;
+
+  margin: 60px 0px 0px 20px;
+}
+footer p:nth-child(1) {
+  font-size: 13px;
+  line-height: 142.5%;
+  text-align: center;
+  margin: 0px 0px 0px 160px;
+}
+footer p:nth-child(2) {
+  font-size: 13px;
+  line-height: 19px;
+  text-align: center;
+  margin: 0px 0px 8px 85px;
+  width: 375px;
+}
+footer div {
+  margin: 0px;
+}
+footer p:nth-child(4) {
+  font-size: 13px;
+  text-align: center;
+  margin: 29px 0px 0px 230px;
+  width: 100px;
+}
+footer a {
+  font-family: Arial;
+  font-size: 13px;
+  text-align: center;
+  color: #000000;
+}
+footer h2 {
+  margin: 30px 0px 0px 240px;
+}
