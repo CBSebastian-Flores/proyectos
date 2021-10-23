@@ -1,0 +1,283 @@
+* {
+  box-sizing: border-box;
+}
+h2 {
+  height: 83px;
+  padding-top: 50px;
+
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 27px;
+}
+/* Header */
+header {
+  font-family: Arial;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 138px;
+  position: fixed;
+  z-index: 1;
+
+  background: #00aab5;
+}
+.anclajes {
+  width: 50%;
+}
+.anclajes ul {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 65px;
+  list-style: none;
+  margin-top: 40px;
+
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 60px;
+}
+.anclajes a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.Logo {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  color: #ffffff;
+}
+.Logo h1:nth-child(1) {
+  margin-left: 26px;
+  font-weight: bold;
+  font-size: 64px;
+}
+.Logo h1:nth-child(2) {
+  padding-left: 19px;
+
+  height: 20px;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 25px;
+}
+/*main*/
+main {
+  font-family: Arial;
+}
+/*Quien soy*/
+.mi-imagen {
+  text-align: center;
+}
+.mi-imagen h1 {
+  position: absolute;
+  width: 100%;
+  font-weight: bold;
+  font-size: 6vw;
+  top: 215px;
+
+  color: #ffffff;
+}
+.mi-imagen img {
+  width: 100vw;
+  height: 50vw;
+  margin-top: 138px;
+}
+.mi-imagen div {
+  position: absolute;
+  width: 30vw;
+  height: 10vw;
+  left: 13%;
+  top: 600px;
+  background: rgba(114, 153, 254, 0.5);
+}
+.mi-imagen div p {
+  text-align: left;
+  width: 100%;
+  height: 100%;
+
+  font-weight: bold;
+  font-size: 2.8vw;
+  line-height: 4vw;
+  padding: 20px;
+
+  color: #ffffff;
+}
+/*my skills*/
+.my-skills {
+  width: 100%;
+  height: 600px;
+  text-align: center;
+
+  background: #7299fe;
+}
+.my-skills h2 {
+  color: #b508a3;
+}
+.my-skills p {
+  text-align: left;
+  width: 85px;
+  height: 21px;
+  padding-top: 12px;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+
+  color: #ffffff;
+}
+.cant-contenedor {
+  background: #fff;
+}
+.cant {
+  background: #000;
+  height: 25px;
+}
+.contenedor {
+  display: flex;
+  justify-content: space-around;
+}
+.contenedor div {
+  margin: 26px 0px;
+}
+.izquierda,
+.derecha {
+  width: 40%;
+  margin: 40px 0px;
+}
+/* Servicios */
+.servicios {
+  width: 100%;
+  height: 600px;
+  text-align: center;
+
+  background: #fb7171;
+}
+.servicios h2 {
+  color: #00cc9b;
+}
+.contenido-contenedor {
+  height: 80%;
+}
+.contenido-contenedor p {
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 40px;
+
+  color: #ffffff;
+}
+.contenido-contenedor img {
+  width: 60px;
+}
+.arriba,
+.abajo {
+  display: flex;
+  justify-content: space-around;
+  height: 50%;
+}
+.arriba div {
+  margin-top: 50px;
+}
+.abajo div {
+  margin-top: 50px;
+}
+/*portafolio*/
+.portafolio {
+  width: 100%;
+  height: 600px;
+  text-align: center;
+
+  background: #ffd233;
+  color: #8402a5;
+}
+.contenido-portafolio {
+  height: 65%;
+  width: auto;
+  margin: 50px 500px;
+}
+.contenido-portafolio img {
+  width: 22%;
+  height: 40%;
+  margin: 10px;
+}
+/*clientes*/
+.clientes {
+  width: 100%;
+  height: 500px;
+  text-align: center;
+
+  background: #3f4e62;
+  color: #ff00c7;
+}
+.contenedor-clientes {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 125px;
+}
+.contenedor-clientes img {
+  height: 125px;
+}
+/* contacto */
+.contacto {
+  width: 100%;
+  height: 1000px;
+  text-align: center;
+  background: #16a085;
+}
+.contacto form {
+  display: flex;
+  flex-direction: column;
+}
+.nombre,
+.apellido,
+.correo,
+.telefono {
+  width: 600px;
+  height: 100px;
+  margin: 45px;
+
+  background: #ffffff;
+  border: 1px solid #bfbfbf;
+
+  font-weight: bold;
+  font-size: 25px;
+}
+.comentario {
+  width: 1550px;
+  height: 350px;
+
+  background: #ffffff;
+  border: 1px solid #bfbfbf;
+
+  font-weight: bold;
+  font-size: 25px;
+}
+.boton {
+  width: 167px;
+  height: 56px;
+  margin:65px;
+
+  background: #233451;
+
+  font-weight: bold;
+  font-size: 25px;
+  color: #fff;
+}
+.inputs-nombre-completo,
+.inputs-contactos {
+  display: flex;
+  justify-content: space-around;
+}
+/*footer*/
+footer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 117px;
+
+  background: #00aab5;
+}
+footer p {
+  height: 50px;
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 25px;
+  margin: 50px 50px;
+  color: #ffffff;
+}
